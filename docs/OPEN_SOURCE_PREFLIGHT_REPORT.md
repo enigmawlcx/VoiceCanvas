@@ -17,6 +17,7 @@
 - API Key 使用 macOS Keychain 保存，不写入配置 JSON。
 - 直接依赖声明的许可证为 MIT、Apache-2.0、BSD、PSF-2.0 等宽松许可证，未发现明显许可证冲突。
 - 项目使用 MIT License，并提供非法律效力的中文辅助说明。
+- 发布者已确认 `assets/` 和 `web/images/` 中的图片、图标素材拥有公开分发权。
 - Python、Shell、JavaScript 语法检查和 `git diff --check` 通过。
 - 完整测试结果：149 项通过；存在 1 条已知的 Starlette 测试依赖弃用警告。
 - 新增 macOS/Python 3.13 GitHub Actions 测试和 Dependabot 配置。
@@ -32,5 +33,4 @@
 
 - PyPI 与 OSV 漏洞数据库在本地审计时均响应超时。public 仓库启用 Dependabot 后发现 `python-multipart==0.0.20` 存在 7 条已知漏洞（其中 3 条为高危），现已升级到修复版本 `0.0.32`；Dependabot 将继续检查后续依赖更新和安全告警。
 - 自动化测试使用模拟的 MiniMax 响应，未使用真实账户执行端到端 API 验证。
-- 源码仓库无法证明图片和图标素材的原创性或外部授权状态；发布者仍需确保 `assets/` 和 `web/images/` 中素材拥有可公开分发的权利。
 - 本报告不构成法律意见。
