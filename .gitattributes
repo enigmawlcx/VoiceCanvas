@@ -1,0 +1,23 @@
+* text=auto
+
+*.py text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.ini text eol=lf
+*.spec text eol=lf
+*.sh text eol=lf
+
+*.png binary
+*.icns binary
+*.zip binary
+*.mp3 binary
+*.wav binary
+*.m4a binary
+*.aac binary
+*.flac binary
+*.db binary
+*.sqlite binary
+*.sqlite3 binary

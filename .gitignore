@@ -1,0 +1,52 @@
+# Codex / local worktrees
+.superpowers/
+.worktrees/
+
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+
+# Virtual environments
+.venv*/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local application data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.log
+
+# Build and release outputs
+build/
+dist/
+*.app
+*.dmg
+*.pkg
+
+# Generated icon workspace
+assets/*.iconset/
+
+# macOS and editors
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
