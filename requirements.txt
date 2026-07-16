@@ -1,4 +1,4 @@
-fastapi==0.139.0
+fastapi==0.139.1
 python-multipart==0.0.32
 uvicorn[standard]==0.50.2
 pywebview==6.2.1
